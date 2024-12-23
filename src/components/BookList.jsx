@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 // Nuevo componente BookImage
 
-function BookImage({ src, alt }) {
+/* function BookImage({ src, alt }) {
   const [imageSrc, setImageSrc] = useState('/placeholder.jpg');
   const [loadStatus, setLoadStatus] = useState('initial');
 
@@ -49,6 +49,57 @@ function BookImage({ src, alt }) {
       loading="lazy"
       style={{
         opacity: loadStatus === 'loading' ? 0.5 : 1,
+        transition: 'opacity 0.3s ease-in-out',
+        width: '100%',
+        height: '100%',
+        objectFit: 'contain'
+      }}
+      onError={(e) => {
+        console.error('Imagen no cargada en el renderizado:', src);
+        e.target.src = '/placeholder.jpg';
+      }}
+    />
+  );
+}
+
+BookImage.propTypes = {
+  src: PropTypes.string.isRequired,
+  alt: PropTypes.string.isRequired
+}; */
+function BookImage({ src, alt }) {
+  const [imageSrc, setImageSrc] = useState('/placeholder.jpg');
+
+  useEffect(() => {
+    // Verificar si la URL es absoluta o relativa
+    const normalizedSrc = src.startsWith('http')
+      ? src
+      : src.startsWith('/')
+        ? src
+        : `/images/${src}`;
+
+    console.log('Intentando cargar imagen:', normalizedSrc);
+
+    const img = new Image();
+    img.src = normalizedSrc;
+
+    img.onload = () => {
+      console.log('Imagen cargada con éxito:', normalizedSrc);
+      setImageSrc(normalizedSrc);
+    };
+
+    img.onerror = () => {
+      console.error('Error al cargar la imagen:', normalizedSrc);
+      setImageSrc('/placeholder.jpg');
+    };
+  }, [src]);
+
+  return (
+    <img
+      src={imageSrc}
+      alt={alt}
+      loading="lazy"
+      style={{
+        opacity: imageSrc === '/placeholder.jpg' ? 0.5 : 1,
         transition: 'opacity 0.3s ease-in-out',
         width: '100%',
         height: '100%',

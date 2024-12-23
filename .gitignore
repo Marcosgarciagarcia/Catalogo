@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Excluir placeholder
+!public/placeholder.jpg
+public/img/
+public/images/
