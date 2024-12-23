@@ -36,4 +36,4 @@ fs.readdirSync(inputDir).forEach((file) => {
     .catch((err) => {
       console.error(`Error optimizing ${file}:`, err);
     });
-}); */
+});
