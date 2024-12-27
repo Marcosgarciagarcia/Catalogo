@@ -9,7 +9,8 @@ function App() {
   const [filtrarPor, setFiltrarPor] = useState('titulo');
   const [busqueda, setBusqueda] = useState('');
   const [paginaActual, setPaginaActual] = useState(1);
-  const librosPorPagina = 12;
+  /*   const librosPorPagina = 12; */
+  const librosPorPagina = 10;
 
   const alfabeto = 'ABCDEFGHIJKLMNÑOPQRSTUVWXYZ'.split('');
 
@@ -51,6 +52,7 @@ function App() {
 
   return (
     <div>
+      <h2>Catálogo de libros de casa</h2>
       <div className="filtro-container">
         <div className="opciones-busqueda">
           <button onClick={cambiarTipoDeFiltro}>

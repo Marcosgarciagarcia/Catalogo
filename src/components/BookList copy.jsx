@@ -5,17 +5,17 @@ function BookImage({ src, alt }) {
   const [imageSrc, setImageSrc] = useState('/placeholder.jpg');
 
   useEffect(() => {
-    // Manejar ambas estructuras de portada
-    const cloudinaryBaseUrl = 'https://res.cloudinary.com/casateca/image/upload/v1/libros/';
+    // Log EXHAUSTIVO de rutas
+    console.log('Ruta original:', src);
 
-    // Determinar la URL de la imagen
-    const normalizedSrc = typeof src === 'object'
-      ? src.url  // Si es objeto con estructura nueva
-      : src.startsWith('http')
-        ? src    // Si ya es URL completa
-        : `${cloudinaryBaseUrl}${src}`;  // Si es nombre de archivo
+    const normalizedSrc = src.startsWith('http')
+      ? src
+      : src.startsWith('/')
+        ? src
+        : `/images/${src}`;
 
-    console.log('Ruta de imagen:', normalizedSrc);
+    console.log('Ruta normalizada:', normalizedSrc);
+    console.log('Intentando cargar imagen:', normalizedSrc);
 
     const img = new Image();
     img.src = normalizedSrc;
@@ -63,10 +63,12 @@ function BookList({ libros = [] }) {
     const imageRoutes = libros.map(libro => ({
       EAN: libro.EAN,
       portada: libro.portada,
-      cloudinaryUrl: `https://res.cloudinary.com/casateca/image/upload/v1/libros/${libro.portada}`
+      fullPath: libro.portada.startsWith('/')
+        ? libro.portada
+        : `/images/${libro.portada}`
     }));
 
-    console.log('Rutas de imágenes en Cloudinary:', imageRoutes);
+    console.log('Rutas de imágenes:', imageRoutes);
   }, [libros]);
 
   return (
