@@ -20,7 +20,7 @@
     {
         "EAN": "9788433966858",
         "nombreAutor": "A. S. Byatt",
-        "portada": "../public/images/9788433966858_OhB4s9y.jpg",
+        "portada":"../public/images/9788433966858_OhB4s9y.jpg",
         "titulo": "Posesión"
     },
     {
