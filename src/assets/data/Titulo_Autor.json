@@ -2,7 +2,7 @@
     {
         "EAN": "9781405281904",
         "nombreAutor": "A A Milne",
-        "portada": "../public/images/9781405281904.jpeg",
+        "portada": "../../public/images/9781405281904.jpeg",
         "titulo": "The Best Bear in All the World"
     },
     {
