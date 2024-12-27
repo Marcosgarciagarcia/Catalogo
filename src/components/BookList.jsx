@@ -56,6 +56,10 @@ BookImage.propTypes = {
 
 // Resto del código igual...
 const BookList = ({ libros = [] }) => {
+  // Añade este logging al principio de la función
+  console.log('Rutas completas de imágenes:',
+    libros.map(libro => libro.portada)
+  );
   return (
     <div className="card-container">
       {libros.map((titulo) => (
