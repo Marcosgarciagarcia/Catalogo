@@ -1,12 +1,13 @@
-// vite.config.js
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
 export default defineConfig({
+  base: "/", // Añade esta línea
   plugins: [react()],
   build: {
-    // Optimización de assets
-    assetsInlineLimit: 4096, // 4kb
+    assetsDir: "images", // Añade esta línea
+    // Resto de tu configuración existente
+    assetsInlineLimit: 4096,
     chunkSizeWarningLimit: 500,
     rollupOptions: {
       output: {

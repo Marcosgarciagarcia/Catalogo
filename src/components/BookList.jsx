@@ -5,10 +5,9 @@ function BookImage({ src, alt }) {
   const [imageSrc, setImageSrc] = useState('/placeholder.jpg');
 
   useEffect(() => {
-    // Logging más detallado
-    console.log('Imagen original recibida:', src);
+    // Log EXHAUSTIVO de rutas
+    console.log('Ruta original:', src);
 
-    // Verificar si la URL es absoluta o relativa
     const normalizedSrc = src.startsWith('http')
       ? src
       : src.startsWith('/')
@@ -74,23 +73,23 @@ function BookList({ libros = [] }) {
 
   return (
     <div className="card-container">
-      {libros.map((titulo) => (
-        <div key={titulo.EAN} className='card'>
+      {libros.map((libro) => (
+        <div key={libro.EAN} className='card'>
           <div className='text-container'>
             <div className='author-container'>
-              <p className='author'>{titulo.nombreAutor}</p>
+              <p className='author'>{libro.nombreAutor}</p>
             </div>
             <div className='title-container'>
-              <p className='title'>{titulo.titulo}</p>
+              <p className='title'>{libro.titulo}</p>
             </div>
           </div>
           <div className='image-container'>
             <BookImage
-              src={titulo.portada}
-              alt={titulo.titulo}
+              src={libro.portada}
+              alt={libro.titulo}
             />
           </div>
-          <div className='isbn'>{titulo.EAN}</div>
+          <div className='isbn'>{libro.EAN}</div>
         </div>
       ))}
     </div>
