@@ -13,8 +13,12 @@ function BookImage({ src, alt }) {
       ? src.url  // Si es objeto con estructura nueva
       : src.startsWith('http')
         ? src    // Si ya es URL completa
-        : `${cloudinaryBaseUrl}${src}`;  // Si es nombre de archivo
+        : src.startsWith('/')
+          ? src  // Si ya es ruta absoluta
+          : `${cloudinaryBaseUrl}${src}`;  // Si es nombre de archivo
 
+    // Log EXHAUSTIVO de rutas
+    console.log('Ruta original:', src);
     console.log('Ruta de imagen:', normalizedSrc);
 
     const img = new Image();
@@ -52,7 +56,12 @@ function BookImage({ src, alt }) {
 }
 
 BookImage.propTypes = {
-  src: PropTypes.string.isRequired,
+  src: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.shape({
+      url: PropTypes.string.isRequired
+    })
+  ]).isRequired,
   alt: PropTypes.string.isRequired
 };
 
@@ -63,7 +72,9 @@ function BookList({ libros = [] }) {
     const imageRoutes = libros.map(libro => ({
       EAN: libro.EAN,
       portada: libro.portada,
-      cloudinaryUrl: `https://res.cloudinary.com/casateca/image/upload/v1/libros/${libro.portada}`
+      cloudinaryUrl: typeof libro.portada === 'object'
+        ? libro.portada.url
+        : `https://res.cloudinary.com/casateca/image/upload/v1/libros/${libro.portada}`
     }));
 
     console.log('Rutas de imágenes en Cloudinary:', imageRoutes);
@@ -100,7 +111,12 @@ BookList.propTypes = {
       EAN: PropTypes.string.isRequired,
       nombreAutor: PropTypes.string.isRequired,
       titulo: PropTypes.string.isRequired,
-      portada: PropTypes.string.isRequired
+      portada: PropTypes.oneOfType([
+        PropTypes.string,
+        PropTypes.shape({
+          url: PropTypes.string.isRequired
+        })
+      ]).isRequired
     })
   )
 };
