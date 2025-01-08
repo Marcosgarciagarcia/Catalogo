@@ -22633,5 +22633,23 @@
       "url": "https://res.cloudinary.com/casateca/image/upload/v1735327019/libros/9788467270853.webp"
     },
     "titulo": "El Diablo en Florencia"
+  },
+  {
+    "EAN": "9788417419165",
+    "nombreAutor": "",
+    "portada": {
+      "publicId": "libros/9788417419165",
+      "url": "https://res.cloudinary.com/casateca/image/upload/v1736361953/9788417419165_gld9hx.jpg"
+    },
+    "titulo": "Hanakotoba.El lenguaje de las flores"
+  },
+  {
+    "EAN": "9788413148588",
+    "nombreAutor": "Brandon Sanderson",
+    "portada": {
+      "publicId": "libros/9788413148588",
+      "url": "https://res.cloudinary.com/casateca/image/upload/v1736362026/9788413148588_tvdsms.jpg"
+    },
+    "titulo": "Escuadón (1)"
   }
 ]
