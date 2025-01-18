@@ -22651,5 +22651,59 @@
       "url": "https://res.cloudinary.com/casateca/image/upload/v1736362026/9788413148588_tvdsms.jpg"
     },
     "titulo": "Escuadrón (1)"
+  },
+    {
+    "EAN": "9788411971645",
+    "nombreAutor": "Jordi Nieva Fenoll",
+    "portada": {
+      "publicId": "libros/9788411971645",
+      "url": "https://res.cloudinary.com/casateca/image/upload/v1737203470/9788411971645_gqjjxw.jpg"
+    },
+    "titulo": "El origen de la Justicia"
+  },
+  {
+  "EAN": "9788419392589",
+  "nombreAutor": "Vasili Grossman",
+  "portada": {
+    "publicId": "libros/9788419392589",
+    "url": "https://res.cloudinary.com/casateca/image/upload/v1737203470/9788419392589_tcnnzh.jpg"
+  },
+  "titulo": "Todo fluye"
+},
+  {
+    "EAN": "9788430623761",
+    "nombreAutor": "José Enrique Ruiz Domènec",
+    "portada": {
+      "publicId": "libros/9788430623761",
+      "url": "https://res.cloudinary.com/casateca/image/upload/v1737203470/9788430623761_dmh5us.jpg"
+    },
+    "titulo": "El sueño de Ulises. El Mediterráneo de la Guerra de Troya a las pateras"
+  },
+    {
+    "EAN": "9788433960160",
+    "nombreAutor": "Helene Hanff",
+    "portada": {
+      "publicId": "libros/9788433960160",
+      "url": "https://res.cloudinary.com/casateca/image/upload/v1737203470/9788433960160_qdppf8.jpg"
+    },
+    "titulo": "84, Charing Cross Road"
+  },
+  {
+  "EAN": "9788491815549",
+  "nombreAutor": "J Peter Burkholder",
+  "portada": {
+    "publicId": "libros/9788491815549",
+    "url": "https://res.cloudinary.com/casateca/image/upload/v1737203470/9788491815549_drhj0u.jpg"
+  },
+  "titulo": "Historia de la música occidental"
+},
+  {
+  "EAN": "9788432316449",
+  "nombreAutor": "John Elliot",
+  "portada": {
+    "publicId": "libros/9788432316449",
+    "url": "https://res.cloudinary.com/casateca/image/upload/v1737203470/9788432316449_q81k8o.jpg"
+  },
+  "titulo": "La rebelión de los catalanes. Un estudio sobre la decadencia de España (1598-1640)"
   }
 ]
