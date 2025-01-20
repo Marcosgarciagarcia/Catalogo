@@ -22697,13 +22697,22 @@
   },
   "titulo": "Historia de la música occidental"
 },
-  {
-  "EAN": "9788432316449",
-  "nombreAutor": "John Elliot",
-  "portada": {
-    "publicId": "libros/9788432316449",
-    "url": "https://res.cloudinary.com/casateca/image/upload/v1737203470/9788432316449_q81k8o.jpg"
-  },
-  "titulo": "La rebelión de los catalanes. Un estudio sobre la decadencia de España (1598-1640)"
-  }
+{
+"EAN": "9788432316449",
+"nombreAutor": "John Elliot",
+"portada": {
+  "publicId": "libros/9788432316449",
+  "url": "https://res.cloudinary.com/casateca/image/upload/v1737203470/9788432316449_q81k8o.jpg"
+},
+"titulo": "La rebelión de los catalanes. Un estudio sobre la decadencia de España (1598-1640)"
+},
+{
+"EAN": "9788491995265",
+"nombreAutor": "Colin Jones",
+"portada": {
+  "publicId": "libros/9788491995265",
+  "url": "https://res.cloudinary.com/casateca/image/upload/v1737394101/9788491995265_lebzab.jpg"
+},
+"titulo": "La caída de Robespierre. 24 horas en el París revolucionario"
+}
 ]
