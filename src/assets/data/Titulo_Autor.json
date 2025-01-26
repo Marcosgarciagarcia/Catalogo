@@ -22714,5 +22714,23 @@
   "url": "https://res.cloudinary.com/casateca/image/upload/v1737394101/9788491995265_lebzab.jpg"
 },
 "titulo": "La caída de Robespierre. 24 horas en el París revolucionario"
+},
+{
+"EAN": "9788419744791",
+"nombreAutor": "Fred Vargas",
+"portada": {
+  "publicId": "libros/9788419744791",
+  "url": "https://res.cloudinary.com/casateca/image/upload/v1737877027/9788419744791_ogiokk.jpg"
+},
+"titulo": "Sobre la losa"
+},
+{
+"EAN": "9788410352063",
+"nombreAutor": "Uketsu",
+"portada": {
+  "publicId": "libros/9788410352063",
+  "url": "https://res.cloudinary.com/casateca/image/upload/v1737877027/9788410352063_cqes4c.jpg"
+},
+"titulo": "Strange pictures"
 }
 ]
