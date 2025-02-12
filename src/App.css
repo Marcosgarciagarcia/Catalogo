@@ -13,14 +13,17 @@ h2 {
 .card {
   width: 250px;
   height: 450px;
-  border: 1px solid #ddd;
+  /*  border: 2px solid #ddd; */
+  border: 2px solid blue;
+  border-radius: 7px;
   padding: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  background-color: rgb(192, 192, 92);
+  /* background-color: rgb(192, 192, 92); */
+  background-color: rgb(188, 216, 253);
 }
 
 .text-container {
