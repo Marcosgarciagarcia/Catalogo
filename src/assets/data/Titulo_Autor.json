@@ -22732,5 +22732,23 @@
   "url": "https://res.cloudinary.com/casateca/image/upload/v1737877027/9788410352063_cqes4c.jpg"
 },
 "titulo": "Strange pictures"
+},
+{
+"EAN": "9788433929471",
+"nombreAutor": "Andrea Rizzi",
+"portada": {
+  "publicId": "libros/9788433929471",
+  "url": "https://res.cloudinary.com/casateca/image/upload/v1739344676/9788433929471_xmrb8l.jpg"
+},
+"titulo": "La era de la revancha"
+},
+{
+"EAN": "9788420476803",
+"nombreAutor": "Cho Nam-joo",
+"portada": {
+  "publicId": "libros/9788420476803",
+  "url": "https://res.cloudinary.com/casateca/image/upload/v1739344676/9788420476803_ecptis.jpg"
+},
+"titulo": "Lo que sabe la señorita Kim"
 }
 ]
