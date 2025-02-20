@@ -16006,7 +16006,7 @@
   },
   {
     "EAN": "9788413620718",
-    "nombreAutor": "Natsume Soseki",
+    "nombreAutor": "Natsume Sōseki",
     "portada": {
       "publicId": "libros/9788413620718_Zm8FRVL",
       "url": "https://res.cloudinary.com/casateca/image/upload/v1735326464/libros/9788413620718_Zm8FRVL.webp"
@@ -22759,5 +22759,32 @@
   "url": "https://res.cloudinary.com/casateca/image/upload/v1739702740/9783836587020_kdrtzl.jpg"
 },
 "titulo": "HR GIGER"
+},
+{
+"EAN": "9788415979128",
+"nombreAutor": "Natsume Sōseki",
+"portada": {
+  "publicId": "libros/9788415979128",
+  "url": "hhttps://res.cloudinary.com/casateca/image/upload/v1740069708/9788415979128_gkdg3p.jpg"
+},
+"titulo": "Kokoro"
+},
+{
+"EAN": "9788419407023",
+"nombreAutor": "Kate Crawford",
+"portada": {
+  "publicId": "libros/9788419407023",
+  "url": "https://res.cloudinary.com/casateca/image/upload/v1740069708/9788419407023_ruisgg.jpg"
+},
+"titulo": "Atlas de la IA. Poder, política y costes planetarios de la Inteligencia Artificial"
+},
+{
+"EAN": "9788375766097",
+"nombreAutor": "Zdzisław Beksiński",
+"portada": {
+  "publicId": "libros/9788375766097",
+  "url": "https://res.cloudinary.com/casateca/image/upload/v1740069708/9788375766097_dvijbf.jpg"
+},
+"titulo": "Beksinski 1-4 wydadnie miniaturowe w etui"
 }
 ]
