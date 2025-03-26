@@ -22786,5 +22786,42 @@
   "url": "https://res.cloudinary.com/casateca/image/upload/v1740069708/9788375766097_dvijbf.jpg"
 },
 "titulo": "Beksinski 1-4 wydadnie miniaturowe w etui"
+},
+{
+"EAN": "9788412135336",
+"nombreAutor": "Andrea Abreu",
+"portada": {
+  "publicId": "libros/9788412135336",
+  "url": "https://res.cloudinary.com/casateca/image/upload/v1742989783/9788412135336_ombnjc.jpg"
+},
+"titulo": "Panza de burro"
+},
+{
+"EAN": "9788419419781",
+"nombreAutor": "Alicja Gescinska",
+"portada": {
+  "publicId": "libros/9788419419781",
+  "url": "https://res.cloudinary.com/casateca/image/upload/v1742989783/9788419419781_aeelvz.jpg"
+},
+"titulo": "Hijos de Ápate. Breve filosofía de la verdad, la posverdad y la mentira"
+},
+{
+"EAN": "9788483831915",
+"nombreAutor": "Haruki Murakami",
+"portada": {
+  "publicId": "libros/9788483831915",
+  "url": "https://res.cloudinary.com/casateca/image/upload/v1742989783/9788483831915_kdbttc.jpg"
+},
+"titulo": "El fin del mundo y un despiadado país de las maravillas"
+},
+{
+"EAN": "9788439736851",
+"nombreAutor": "Martín Caparrós",
+"portada": {
+  "publicId": "libros/9788439736851",
+  "url": "https://res.cloudinary.com/casateca/image/upload/v1742989783/9788439736851_nnbw8z.jpg"
+},
+"titulo": "El Hambre"
 }
+]
 ]
