@@ -22822,5 +22822,14 @@
   "url": "https://res.cloudinary.com/casateca/image/upload/v1742989783/9788439736851_nnbw8z.jpg"
 },
 "titulo": "El Hambre"
+},
+{
+"EAN": "9788483102503",
+"nombreAutor": "Haruki Murakami",
+"portada": {
+  "publicId": "libros/9788483102503",
+  "url": "https://res.cloudinary.com/casateca/image/upload/v1743074597/9788483102503_cj1zlp.jpg"
+},
+"titulo": "Al sur de la frontera, al oeste del Sol"
 }
 ]
