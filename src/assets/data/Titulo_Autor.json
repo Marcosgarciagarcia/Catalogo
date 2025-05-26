@@ -22831,5 +22831,14 @@
   "url": "https://res.cloudinary.com/casateca/image/upload/v1743074597/9788483102503_cj1zlp.jpg"
 },
 "titulo": "Al sur de la frontera, al oeste del Sol"
-}
+},
+{
+  "EAN": "9788467270785",
+  "nombreAutor": "Ken Follet",
+  "portada": {
+    "publicId": "libros/9788467270785",
+    "url": "https://res.cloudinary.com/casateca/image/upload/v1748240502/9788467270785_d9lqca.jpg"
+  },
+  "titulo": "Una columna de fuego"
+  }
 ]
