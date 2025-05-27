@@ -22840,5 +22840,86 @@
     "url": "https://res.cloudinary.com/casateca/image/upload/v1748240502/9788467270785_d9lqca.jpg"
   },
   "titulo": "Una columna de fuego"
-  }
+},
+{
+  "EAN": "9788467226539",
+  "nombreAutor": "Ovidio",
+  "portada": {
+    "publicId": "libros/9788467226539",
+    "url": "https://res.cloudinary.com/casateca/image/upload/v1748342897/9788467226539_ncuufc.jpg"
+  },
+  "titulo": "Amores. Arte de amar"
+},
+{
+  "EAN": "9788467226546",
+  "nombreAutor": "Lucio Apuleyo",
+  "portada": {
+    "publicId": "libros/9788467226546",
+    "url": "https://res.cloudinary.com/casateca/image/upload/v1748342898/9788467226546_qs0sc7.jpg"
+  },
+  "titulo": "El asno de oro"
+},
+{
+  "EAN": "9788467226508",
+  "nombreAutor": "Virgilio",
+  "portada": {
+    "publicId": "libros/9788467226508",
+    "url": "https://res.cloudinary.com/casateca/image/upload/v1748342897/9788467226508_roz7ww.jpg"
+  },
+  "titulo": "Eneida"
+},
+{
+  "EAN": "9788467226485",
+  "nombreAutor": "Julio César",
+  "portada": {
+    "publicId": "libros/9788467226485",
+    "url": "https://res.cloudinary.com/casateca/image/upload/v1748342897/9788467226485_mpy0rm.jpg"
+  },
+  "titulo": "Guerra de las Galias// Guerra Civil"
+},
+{
+  "EAN": "9788467226430",
+  "nombreAutor": "Homero",
+  "portada": {
+    "publicId": "libros/9788467226430",
+    "url": "https://res.cloudinary.com/casateca/image/upload/v1748342897/9788467226430_qeohsl.jpg"
+  },
+  "titulo": "Ilíada"
+},
+{
+  "EAN": "9788467226515",
+  "nombreAutor": "Horacio",
+  "portada": {
+    "publicId": "libros/9788467226515",
+    "url": "https://res.cloudinary.com/casateca/image/upload/v1748342898/9788467226515_ddxegf.jpg"
+  },
+  "titulo": "Odas // Canto secular // Epodos"
+},
+{
+  "EAN": "9788467226447",
+  "nombreAutor": "Homero",
+  "portada": {
+    "publicId": "libros/9788467226447",
+    "url": "https://res.cloudinary.com/casateca/image/upload/v1748342897/9788467226447_pgqdse.jpg"
+  },
+  "titulo": "Odisea"
+},
+{
+  "EAN": "9788467226492",
+  "nombreAutor": "Marco Tulio Cicerón",
+  "portada": {
+    "publicId": "libros/9788467226492",
+    "url": "https://res.cloudinary.com/casateca/image/upload/v1748342897/9788467226492_b7zvrx.jpg"
+  },
+  "titulo": "De re publica // Catilinariaeisea"
+},
+{
+  "EAN": "9788467226454",
+  "nombreAutor": "Esquilo",
+  "portada": {
+    "publicId": "libros/9788467226454",
+    "url": "https://res.cloudinary.com/casateca/image/upload/v1748342898/9788467226454_rwh7c6.jpg"
+  },
+  "titulo": "Tragedias griegas"
+}
 ]
