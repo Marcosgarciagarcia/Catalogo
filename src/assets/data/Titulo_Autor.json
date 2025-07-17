@@ -22930,5 +22930,32 @@
     "url": "https://res.cloudinary.com/casateca/image/upload/v1748363245/9788480902281_xtlkeh.jpg"
   },
   "titulo": "Cerdanya 2006-2007"
+},
+{
+  "EAN": "9781509844760",
+  "nombreAutor": "Miguel de Cervantes",
+  "portada": {
+    "publicId": "libros/9781509844760",
+    "url": "https://res.cloudinary.com/casateca/image/upload/v1752744260/9781509844760_cytdmh.jpg"
+  },
+  "titulo": "Don Quixote"
+},
+{
+  "EAN": "9781509825448",
+  "nombreAutor": "Charles Dickens",
+  "portada": {
+    "publicId": "libros/9781509825448",
+    "url": "https://res.cloudinary.com/casateca/image/upload/v1752744260/9781509825448_f7erye.jpg"
+  },
+  "titulo": "A Christmas Carol"
+},
+{
+  "EAN": "9781509826360",
+  "nombreAutor": "F Scott Fitzgerald",
+  "portada": {
+    "publicId": "libros/9781509826360",
+    "url": "https://res.cloudinary.com/casateca/image/upload/v1752744260/9781509826360_vbxxl3.jpg"
+  },
+  "titulo": "The Great Gatsby"
 }
 ]
