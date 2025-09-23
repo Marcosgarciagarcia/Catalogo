@@ -22975,5 +22975,41 @@
     "url": "https://res.cloudinary.com/casateca/image/upload/v1756898705/9788420479446_yvl4ny.jpg"
   },
   "titulo": "Misión en París"
+},
+{
+  "EAN": "9788419719713",
+  "nombreAutor": "Haidar Eid",
+  "portada": {
+    "publicId": "libros/9788419719713",
+    "url": "https://res.cloudinary.com/casateca/image/upload/v1758645056/9788419719713_wmd1qj.jpg"
+  },
+  "titulo": "Descolonizando la mente palestina"
+},
+{
+  "EAN": "9788412953039",
+  "nombreAutor": "Ilan Pappé",
+  "portada": {
+    "publicId": "libros/9788412953039",
+    "url": "https://res.cloudinary.com/casateca/image/upload/v1758645053/9788412953039_bujaxy.jpg"
+  },
+  "titulo": "Breve historia del conflicto entre Israel y Palestina"
+},
+{
+  "EAN": "9788418283932",
+  "nombreAutor": "Colectivo Disonancia",
+  "portada": {
+    "publicId": "libros/9788418283932",
+    "url": "https://res.cloudinary.com/casateca/image/upload/v1758645053/9788418283932_x4za9h.jpg"
+  },
+  "titulo": "Contra el imperio de los datos. De armas, cables y otros artefactos"
+},
+{
+  "EAN": "9788430627875",
+  "nombreAutor": "Hannah Arendt",
+  "portada": {
+    "publicId": "libros/9788430627875",
+    "url": "https://res.cloudinary.com/casateca/image/upload/v1758645053/9788430627875_lausnn.jpg"
+  },
+  "titulo": "Sobre Palestina"
 }
 ]
