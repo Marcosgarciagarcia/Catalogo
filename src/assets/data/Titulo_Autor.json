@@ -23020,7 +23020,8 @@
     "url": "https://res.cloudinary.com/casateca/image/upload/v1766994441/9791399142006_j4vryd.jpg"
   },
   "titulo": "Reflejos de Japón 365 días con alma"
-},{
+},
+{
   "EAN": "9782072995736",
   "nombreAutor": "Arthur Rimbaud",
   "portada": {
@@ -23028,5 +23029,14 @@
     "url": "https://res.cloudinary.com/casateca/image/upload/v1767295608/9782072995736_wczhig.jpg"
   },
   "titulo": "Une saison en enfer 1873. Photographies, écrits, dessins Pattti Smith"
+},
+{
+  "EAN": "9780141190280",
+  "nombreAutor": "Tennessee Williams",
+  "portada": {
+    "publicId": "libros/9780141190280",
+    "url": "https://res.cloudinary.com/casateca/image/upload/v1767356517/9780141190280_ucmaki.jpg"
+  },
+  "titulo": "Cat On a Hot Tin Roof"
 }
 ]
