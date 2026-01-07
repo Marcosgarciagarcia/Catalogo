@@ -23038,5 +23038,23 @@
     "url": "https://res.cloudinary.com/casateca/image/upload/v1767356517/9780141190280_ucmaki.jpg"
   },
   "titulo": "Cat On a Hot Tin Roof"
+},
+{
+  "EAN": "9788417347628",
+  "nombreAutor": "Frank Herbert",
+  "portada": {
+    "publicId": "libros/9788417347628",
+    "url": "https://res.cloudinary.com/casateca/image/upload/v1767789995/9788417347628_nxairr.jpg"
+  },
+  "titulo": "Dune"
+},
+{
+  "EAN": "9788426432957",
+  "nombreAutor": "Patti Smith",
+  "portada": {
+    "publicId": "libros/9788426432957",
+    "url": "https://res.cloudinary.com/casateca/image/upload/v1767789995/9788426432957_nzfxiq.jpg"
+  },
+  "titulo": "Pan de ángeles. Memorias"
 }
 ]
