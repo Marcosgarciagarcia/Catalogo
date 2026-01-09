@@ -23056,5 +23056,23 @@
     "url": "https://res.cloudinary.com/casateca/image/upload/v1767789995/9788426432957_nzfxiq.jpg"
   },
   "titulo": "Pan de ángeles. Memorias"
+},
+{
+  "EAN": "9788419346025",
+  "nombreAutor": "Hisashi Kashiwai",
+  "portada": {
+    "publicId": "libros/9788419346025",
+    "url": "https://res.cloudinary.com/casateca/image/upload/v1767953654/9788419346025_fxne1w.jpg"
+  },
+  "titulo": "Los misterios de la taberna Kamogawa"
+},
+{
+  "EAN": "9788419942319",
+  "nombreAutor": "David Uclés",
+  "portada": {
+    "publicId": "libros/9788419942319",
+    "url": "https://res.cloudinary.com/casateca/image/upload/v1767953655/9788419942319_qigqlt.jpg"
+  },
+  "titulo": "La península de las casas vacía"
 }
 ]
