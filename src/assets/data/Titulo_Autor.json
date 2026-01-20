@@ -23092,5 +23092,50 @@
     "url": "https://res.cloudinary.com/casateca/image/upload/v1768376460/9788991388529_itp8yg.jpg"
   },
   "titulo": "The May 18 Democratic Uprising"
+},
+{
+  "EAN": "9788426405685",
+  "nombreAutor": "Umberto Eco",
+  "portada": {
+    "publicId": "libros/9788426405685",
+    "url": "https://res.cloudinary.com/casateca/image/upload/v1768936207/9788426405685_uxq1nc.jpg"
+  },
+  "titulo": "Conra el Fascismo"
+},
+{
+  "EAN": "9788411480437",
+  "nombreAutor": "Isaiah Berlin",
+  "portada": {
+    "publicId": "libros/9788411480437",
+    "url": "https://res.cloudinary.com/casateca/image/upload/v1768936207/9788411480437_lwsfpe.jpg"
+  },
+  "titulo": "Nacionalidad y nacionalismo"
+},
+{
+  "EAN": "9788411002523",
+  "nombreAutor": "Hein de Haas",
+  "portada": {
+    "publicId": "libros/9788411002523",
+    "url": "https://res.cloudinary.com/casateca/image/upload/v1768936207/9788411002523_xr3pws.jpg"
+  },
+  "titulo": "Los mitos de la inmigración. 22 falsos mantras sobre el tema que más nos divide"
+},
+{
+  "EAN": "9791387597139",
+  "nombreAutor": "Paola Caridi",
+  "portada": {
+    "publicId": "libros/9791387597139",
+    "url": "https://res.cloudinary.com/casateca/image/upload/v1768936208/9791387597139_p4k6m6.jpg"
+  },
+  "titulo": "La morera de Jerusalén"
+},
+{
+  "EAN": "9780241773703",
+  "nombreAutor": "VV.AA.",
+  "portada": {
+    "publicId": "libros/9780241773703",
+    "url": "https://res.cloudinary.com/casateca/image/upload/v1768936207/9780241773703_wnaoax.jpg"
+  },
+  "titulo": "Historia de la exploración mapa a mapa"
 }
 ]
